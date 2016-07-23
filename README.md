@@ -48,6 +48,20 @@ You must use the HTML5 Document Type Definition. Consider this to be case-sensit
 <!doctype html>
 ```
 
+This DOCTYPE must always be the first line in the .html file. The following is incorrect:
+
+```html
+
+<!DOCTYPE html>
+```
+
+We also recommend against capitalising ‘html’. The following (whilst still technically adhering t the HTML specification is bad style):
+
+```html
+<!-- Wrong -->
+<!DOCTYPE HTML>
+```
+
 ### Lowercase names
 
 Element and attribute names must be in all lower case:
