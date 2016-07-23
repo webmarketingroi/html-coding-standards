@@ -221,6 +221,23 @@ Putting multiple (especially ‘block-level’) elements on one line is bad form
 <p>Paragraph 1</p> <p>Paragraph 2</p>
 ```
 
+```html
+<!-- Correct -->
+<ul>
+  <li>Line item 1</li>
+  <li>Line item 2</li>
+  <li>Line item 3</li>
+</ul>
+
+<!-- Wrong -->
+<ul>
+  <li>Line item 1</li><li>Line item 2</li>
+  <li>Line item 3</li>
+</ul>
+```
+
+This means that a human being (other programmer/collaborator) can more quickly read what the intended meaning of this code is (two separate paragraphs to be each interpreted individually – most likely with some spacing between them).
+
 ## Line endings
 
 Format files with \n as the line ending (Unix line endings). Do not use \r\n (Windows line endings) or \r (Apple OS's). 
