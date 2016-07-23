@@ -20,6 +20,7 @@ These are:
 - [Avoid hacking the language](#avoid-hacking-the-language)
 - [Indentation](#indentation)
 - [Never use tabs](#never-use-tabs)
+- [Avoid putting multiple elements on one line](#avoid-putting-multiple-elements-on-one-line)
 - [Line endings](#line-endings)
 - [Encoding and charset](#encoding-and-charset)
 - [Special characters](#special-characters)
@@ -201,6 +202,24 @@ Example:
 ## Never use tabs
 
 Never use tabs. A tab could be a different number of columns depending on your environment or text editor, but a space is always one column. Always use spaces instead. This improves readability across a variety of operating systems and text editors.
+
+## Avoid putting multiple elements on one line
+
+In [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.xml#General_Formatting), Google writes:
+
+>  Use a new line for every block, list, or table element, and indent every such child element.
+
+Putting multiple (especially ‘block-level’) elements on one line is bad form.
+
+```html
+<!-- Correct -->
+<p>Paragraph 1</p>
+
+<p>Paragraph 2</p>
+
+<!-- Wrong -->
+<p>Paragraph 1</p> <p>Paragraph 2</p>
+```
 
 ## Line endings
 
