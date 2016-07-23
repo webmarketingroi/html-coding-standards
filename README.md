@@ -3,6 +3,15 @@ HTML Coding Standards
 
 HTML Coding Standards you must conform to when writing HTML in Web Marketing ROI projects.
 
+### Tools for simplifying checking HTML coding standards
+
+To make easier the process of checking HTML-based files for validation, we have several tools that check for some but not all of our required coding standards.
+
+These are:
+
+* W3C Validation (https://validator.w3.org/)
+* htmlcs-poc (https://github.com/ecomfe/htmlcs)
+
 ## Table of contents
 
 - [Write valid HTML](#write-valid-html)
