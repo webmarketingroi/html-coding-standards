@@ -10,7 +10,7 @@ To make easier the process of checking HTML-based files for validation, we have 
 These are:
 
 * W3C Validation (https://validator.w3.org/)
-* htmlcs-poc (https://github.com/ecomfe/htmlcs)
+* htmlcs (https://github.com/ecomfe/htmlcs with our rule-set https://github.com/webmarketingroi/html-coding-standards/blob/master/wmroi_htmlcsrc)
 
 ## Table of contents
 
