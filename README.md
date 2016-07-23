@@ -130,7 +130,7 @@ Format files with \n as the line ending (Unix line endings). Do not use \r\n (Wi
 Set encoding of HTML document and its charset to UTF-8 Normalization Form C (NFC):
 
 ```html
-<meta charset="utf-8" />
+<meta charset="utf-8">
 ```
 
 ## Special characters
