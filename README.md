@@ -18,6 +18,7 @@ These are:
 - [DOCTYPE](#doctype)
 - [Do not add unnecessary whitespace](#do-not-add-unnecessary-whitespace)
 - [Avoid hacking the language](#avoid-hacking-the-language)
+- [Lowercase names](#lowercase-names)
 - [Indentation](#indentation)
 - [Never use tabs](#never-use-tabs)
 - [Avoid putting multiple elements on one line](#avoid-putting-multiple-elements-on-one-line)
