@@ -26,6 +26,7 @@ These are:
 - [Never use tabs](#never-use-tabs)
 - [Avoid putting multiple elements on one line](#avoid-putting-multiple-elements-on-one-line)
 - [Double quotation marks](#double-quotation-marks)
+- [Do not use multiple stylesheets when one would do](#do-not-use-multiple-stylesheets-when-one-would-do)
 - [Line endings](#line-endings)
 - [Encoding and charset](#encoding-and-charset)
 - [Special characters](#special-characters)
@@ -255,6 +256,22 @@ Avoid using single quotation marks, electing to always use double quotation mark
 
 <!-- Wrong -->
 <link rel='stylesheet' href='style.css'>
+```
+
+## Do not use multiple stylesheets when one would do
+
+For landing pages, they should always have only a maximum of one style-sheet. For large sites, there could be a case for more than one – but think long and hard before having multiple style-sheets.
+
+```html
+<!-- Correct -->
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- Wrong -->
+<link rel="stylesheet" href="assets/css/normalize.css">
+<link rel="stylesheet" href="assets/css/global.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/tablet.css">
+<link rel="stylesheet" href="assets/css/mobile.css">
 ```
 
 ## Line endings
