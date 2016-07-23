@@ -292,29 +292,11 @@ If it isn't possible to use IDs (for example because of ASP.NET platform), use a
 
 ## Comments
 
-Insert ending comment after closing tag of the HTML section in this format:
+Generally, avoid the usage of them altogether. If HTML is well written – in most cases, HTML comments are unnecessary (since well-written HTML is typically easy to read).
 
-```html
-<!-- / name-of-class-or-id -->
-```
+If you find yourself wanting to add HTML comments – ask yourself whether they are absolutely necessary and generally avoid.
 
-Do not use starting comment.
-
-Examples:
-
-```html
-<ol class="accessibility-nav">
-  <li><a href="#navigation">Skip to navigation</a></li>
-  <li><a href="#content">Skip to content</a></li>
-  <li><a href="#sidebar">Skip to sidebar</a></li>
-</ol>
-<!-- / accessibility-nav -->
- 
-<p>
-  <a href="#" title="Go to homepage"><em>Home</em></a>
-</p>
-<!-- / breadcrumb -->
-```
+In exceptional cases where you think they may benefit readability or comprehensive of a code-block, use them, but make to always follow the format of `<!-- Clear comment -->` on a separate line preceding the difficult to understand HTML.
 
 ## Accessibility
 
