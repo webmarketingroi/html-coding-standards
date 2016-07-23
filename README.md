@@ -38,7 +38,7 @@ These are:
 - [Comments](#comments)
 - [Accessibility](#accessibility)
 - [Attaching CSS and JavaScript files](#attaching-css-and-javascript-files)
-- [Referenes](#references)
+- [References](#references)
 - [License](#license)
 
 ## Write valid HTML
