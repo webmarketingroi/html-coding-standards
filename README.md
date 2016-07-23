@@ -92,7 +92,7 @@ Attribute values, even numeric attributes should be quoted—for example:
 
 ## Indentation
 
-Strictly use indentation with 2 spaces (never tabs) for code indentation.
+Use indentation with 2 spaces for code indentation. Do not use tabs.
 
 Use indentation consistently to enhance the readability of the code.
 
