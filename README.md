@@ -57,7 +57,7 @@ This DOCTYPE must always be the first line in the .html file. The following is i
 <!DOCTYPE html>
 ```
 
-We also recommend against capitalising ‘html’. The following (whilst still technically adhering t the HTML specification is bad style):
+We also recommend against capitalising ‘html’. The following (whilst still technically adhering to the HTML specification is bad style):
 
 ```html
 <!-- Wrong -->
