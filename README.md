@@ -27,6 +27,7 @@ These are:
 - [Avoid putting multiple elements on one line](#avoid-putting-multiple-elements-on-one-line)
 - [Double quotation marks](#double-quotation-marks)
 - [Do not use multiple stylesheets when one would do](#do-not-use-multiple-stylesheets-when-one-would-do)
+- [Always have a META description](#always-have-a-meta-description)
 - [Line endings](#line-endings)
 - [Encoding and charset](#encoding-and-charset)
 - [Special characters](#special-characters)
@@ -273,6 +274,16 @@ For landing pages, they should always have only a maximum of one style-sheet. Fo
 <link rel="stylesheet" href="assets/css/tablet.css">
 <link rel="stylesheet" href="assets/css/mobile.css">
 ```
+
+## Always have a META description
+
+Always include a META description element such as:
+
+```html
+<meta name="description" content="...">
+```
+
+The contents of the “content” should be between 150 characters and 160 characters.
 
 ## Line endings
 
