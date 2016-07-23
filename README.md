@@ -19,6 +19,7 @@ These are:
 - [Do not add unnecessary whitespace](#do-not-add-unnecessary-whitespace)
 - [Avoid hacking the language](#avoid-hacking-the-language)
 - [Lowercase names](#lowercase-names)
+- [Closing tags](#closing-tags)
 - [Indentation](#indentation)
 - [Never use tabs](#never-use-tabs)
 - [Avoid putting multiple elements on one line](#avoid-putting-multiple-elements-on-one-line)
