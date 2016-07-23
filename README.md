@@ -6,6 +6,7 @@ HTML Coding Standards you must conform to when writing HTML in Web Marketing ROI
 ## Table of contents
 
 - [Write valid HTML](#write-valid-html)
+- [DOCTYPE](#doctype)
 - [Indentation](#indentation)
 - [Line endings](#line-endings)
 - [Encoding and charset](#encoding-and-charset)
@@ -20,10 +21,18 @@ HTML Coding Standards you must conform to when writing HTML in Web Marketing ROI
 
 ## Write valid HTML
 
-All HTML code must be valid and well formed. You must validate it against the HTML specification pertaining to the project you are working on. Unless another specification is requested or needed, use HTML5 Document Type Definition:
+All HTML code must be valid and well formed. You must validate it against the HTML specification pertaining to the project you are working on. 
+
+### DOCTYPE
+
+You must use the HTML5 Document Type Definition. Consider this to be case-sensitive and it should always be the very first line of any HTML document (i.e.: not a line-break or similar).
 
 ```html
+<!-- Correct -->
 <!DOCTYPE html>
+
+<!-- Wrong -->
+<!doctype html>
 ```
 
 ### Lowercase names
