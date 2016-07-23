@@ -19,6 +19,7 @@ These are:
 - [Do not add unnecessary whitespace](#do-not-add-unnecessary-whitespace)
 - [Avoid hacking the language](#avoid-hacking-the-language)
 - [Indentation](#indentation)
+- [Never use tabs](#never-use-tabs)
 - [Line endings](#line-endings)
 - [Encoding and charset](#encoding-and-charset)
 - [Special characters](#special-characters)
@@ -196,6 +197,10 @@ Example:
   </nav>
 </div>
 ```
+
+## Never use tabs
+
+Never use tabs. A tab could be a different number of columns depending on your environment or text editor, but a space is always one column. Always use spaces instead. This improves readability across a variety of operating systems and text editors.
 
 ## Line endings
 
