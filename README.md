@@ -20,6 +20,7 @@ These are:
 - [Avoid hacking the language](#avoid-hacking-the-language)
 - [Lowercase names](#lowercase-names)
 - [Closing tags](#closing-tags)
+- [Nested elements](#nested-elements)
 - [Indentation](#indentation)
 - [Never use tabs](#never-use-tabs)
 - [Avoid putting multiple elements on one line](#avoid-putting-multiple-elements-on-one-line)
