@@ -28,6 +28,7 @@ These are:
 - [Double quotation marks](#double-quotation-marks)
 - [Do not use multiple stylesheets when one would do](#do-not-use-multiple-stylesheets-when-one-would-do)
 - [Always have a META description](#always-have-a-meta-description)
+- [Always have a favicon](#always-have-a-favicon)
 - [Line endings](#line-endings)
 - [Encoding and charset](#encoding-and-charset)
 - [Special characters](#special-characters)
@@ -284,6 +285,14 @@ Always include a META description element such as:
 ```
 
 The contents of the “content” should be between 150 characters and 160 characters.
+
+## Always have a favicon
+
+Always include a ‘favicon’ such as below:
+
+```html
+<link rel="shortcut icon” href="favicon.ico">
+```
 
 ## Line endings
 
