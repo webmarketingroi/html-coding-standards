@@ -23,7 +23,7 @@ HTML Coding Standards you must conform to when writing HTML in Web Marketing ROI
 All HTML code must be valid and well formed. You must validate it against the HTML specification pertaining to the project you are working on. Unless another specification is requested or needed, use HTML5 Document Type Definition:
 
 ```html
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 ```
 
 ### Lowercase names
