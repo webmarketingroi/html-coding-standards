@@ -182,10 +182,9 @@ Example:
 ```html
 <div class="container">
   <header class="header">
-    <h1>Site Name<span></span></h1>
+    <h1>Site Name</h1>
   </header>
-  <!-- / header -->
-  <hr>
+  
   <nav class="navigation">
   	<ul>
       <li><a href="#">Link</a></li>
@@ -195,9 +194,7 @@ Example:
       <li><a href="#">Link</a></li>
   	</ul>
   </nav>
-  <!-- / navigation -->
 </div>
-<!-- / container -->
 ```
 
 ## Line endings
