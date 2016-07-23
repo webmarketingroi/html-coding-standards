@@ -53,7 +53,7 @@ Elements with a single tag, such as `<hr>`, `<br>`, `<input>` and `<img>` must e
 ```html
 <br>
 <hr>
-<img src="john.jpg" alt="John Doe" width="200" height="100">
+<img src="john.jpg" alt="John Doe">
 ```
 
 ### Nested elements
@@ -92,7 +92,7 @@ Attribute values, even numeric attributes should be quoted—for example:
 
 ## Indentation
 
-Use soft tabs with 2 spaces for code indentation.
+Strictly use indentation with 2 spaces (never tabs) for code indentation.
 
 Use indentation consistently to enhance the readability of the code.
 
@@ -135,7 +135,7 @@ Set encoding of HTML document and its charset to UTF-8 Normalization Form C (NFC
 
 ## Special characters
 
-Encode special characters, for examle:
+Encode special characters, for example:
 
 ```html
 &amp;
