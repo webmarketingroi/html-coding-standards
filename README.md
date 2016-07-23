@@ -17,6 +17,7 @@ These are:
 - [Write valid HTML](#write-valid-html)
 - [DOCTYPE](#doctype)
 - [Do not add unnecessary whitespace](#do-not-add-unnecessary-whitespace)
+- [Avoid hacking the language](#avoid-hacking-the-language)
 - [Indentation](#indentation)
 - [Line endings](#line-endings)
 - [Encoding and charset](#encoding-and-charset)
@@ -84,6 +85,24 @@ This applies equally to elements such as `strong` as it does `h3`.
 
 <!-- Wrong -->
 <strong>Use of your personal information </strong>
+```
+
+### Avoid hacking the language
+
+Each element has an intended meaning. For example, ‘h1’ is intended to be a ‘top-level heading’. ‘h2’ is intended to be a ‘second level’ heading.
+
+If your second-level heading has been styled to be larger than your top-level heading – you probably need to rethink your approach.
+
+```html
+<!-- Wrong -->
+<h2>Main Website Headline</h2>
+
+<h3>Bigger Headline</h3>
+
+<!-- Correct -->
+<h1>Main Website Headline</h1>
+
+<h2>Second-Level Heading</h2>
 ```
 
 ### Lowercase names
