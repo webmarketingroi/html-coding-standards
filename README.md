@@ -21,6 +21,7 @@ These are:
 - [Indentation](#indentation)
 - [Never use tabs](#never-use-tabs)
 - [Avoid putting multiple elements on one line](#avoid-putting-multiple-elements-on-one-line)
+- [Double quotation marks](#double-quotation-marks)
 - [Line endings](#line-endings)
 - [Encoding and charset](#encoding-and-charset)
 - [Special characters](#special-characters)
@@ -237,6 +238,18 @@ Putting multiple (especially ‘block-level’) elements on one line is bad form
 ```
 
 This means that a human being (other programmer/collaborator) can more quickly read what the intended meaning of this code is (two separate paragraphs to be each interpreted individually – most likely with some spacing between them).
+
+## Double quotation marks
+
+Avoid using single quotation marks, electing to always use double quotation marks.
+
+```html
+<!-- Correct -->
+<link rel=”stylesheet” href=”style.css”>
+
+<!-- Wrong -->
+<link rel='stylesheet' href='style.css'>
+```
 
 ## Line endings
 
