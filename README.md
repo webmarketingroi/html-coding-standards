@@ -51,6 +51,7 @@ You must use the HTML5 Document Type Definition. Consider this to be case-sensit
 This DOCTYPE must always be the first line in the .html file. The following is incorrect:
 
 ```html
+<!-- Wrong -->
 
 <!DOCTYPE html>
 ```
