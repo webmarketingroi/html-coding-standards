@@ -302,6 +302,8 @@ As elegantly expressed in [Code Guide by @mdo](http://codeguide.co/#html-reducin
 
 > Whenever possible, avoid superfluous parent elements when writing HTML. Many times this requires iteration and refactoring, but produces less HTML.
 
+The example provided:
+
 ```html
 <!-- Not so great -->
 <span class="avatar">
