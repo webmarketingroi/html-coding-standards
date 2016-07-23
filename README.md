@@ -21,6 +21,7 @@ These are:
 - [Lowercase names](#lowercase-names)
 - [Closing tags](#closing-tags)
 - [Nested elements](#nested-elements)
+- [Attribute values](#attribute-values)
 - [Indentation](#indentation)
 - [Never use tabs](#never-use-tabs)
 - [Avoid putting multiple elements on one line](#avoid-putting-multiple-elements-on-one-line)
