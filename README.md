@@ -48,12 +48,6 @@ Non-empty elements must have corresponding closing tags.
 <p>Some text</p>
 ```
 
-Empty elements must be followed by a corresponding closing tag:
-
-```html
-<span></span>
-```
-
 Elements with a single tag, such as `<hr>`, `<br>`, `<input>` and `<img>` must end with `>`:
 
 ```html
