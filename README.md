@@ -90,10 +90,10 @@ Attribute values, even numeric attributes should be quoted—for example:
 
 ```html
 <!-- Correct -->
-<input name="age" type="text" size="3" />
+<input name="age" type="text" size="3">
 
 <!-- Wrong -->
-<input name=age type=text size=3 />
+<input name=age type=text size=3>
 ```
 
 ## Indentation
