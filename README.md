@@ -142,6 +142,8 @@ Elements with a single tag, such as `<hr>`, `<br>`, `<input>` and `<img>` must e
 <img src="john.jpg" alt="John Doe">
 ```
 
+Self-closing tags such as `<br />` are XHTML and not HTML5. Do not use them.
+
 ### Nested elements
 
 Nested elements must be nested appropriately - for example:
