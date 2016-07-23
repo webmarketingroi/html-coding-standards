@@ -29,6 +29,7 @@ These are:
 - [Do not use multiple stylesheets when one would do](#do-not-use-multiple-stylesheets-when-one-would-do)
 - [Always have a META description](#always-have-a-meta-description)
 - [Always have a favicon](#always-have-a-favicon)
+- [Reducing markup](#reducing-markup)
 - [Line endings](#line-endings)
 - [Encoding and charset](#encoding-and-charset)
 - [Special characters](#special-characters)
@@ -293,6 +294,22 @@ Always include a ‘favicon’ such as below:
 
 ```html
 <link rel="shortcut icon” href="favicon.ico">
+```
+
+## Reducing markup
+
+As elegantly expressed in [Code Guide by @mdo](http://codeguide.co/#html-reducing-markup):
+
+> Whenever possible, avoid superfluous parent elements when writing HTML. Many times this requires iteration and refactoring, but produces less HTML.
+
+```html
+<!-- Not so great -->
+<span class="avatar">
+  <img src="...">
+</span>
+
+<!-- Better -->
+<img class="avatar" src="...">
 ```
 
 ## Line endings
