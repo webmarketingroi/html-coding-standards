@@ -38,6 +38,7 @@ These are:
 - [Comments](#comments)
 - [Accessibility](#accessibility)
 - [Attaching CSS and JavaScript files](#attaching-css-and-javascript-files)
+- [Referenes](#references)
 - [License](#license)
 
 ## Write valid HTML
@@ -371,6 +372,14 @@ Adhere to basic accessibility principles when writing HTML.
 
 - Use alt attributes on img elements - [Read more &raquo;](http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/html.html#H37)
 - Use null alt text and no title attribute on img elements for images that Assistive Technology should ignore - [Read more &raquo;](http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/html.html#H67)
+
+## References
+
+* Google HTML/CSS Style Guide (https://google.github.io/styleguide/htmlcssguide.xml)
+* RFC2119 (https://tools.ietf.org/html/rfc2119) – Used to clearly define the usage of the
+words ‘MUST’, ‘MUST NOT’, ‘SHOULD’ and ‘SHOULD NOT’.
+* Code Guide by @mdo (http://codeguide.co/)
+* Web Marketing ROI’s htmlcs ruleset (https://github.com/webmarketingroi/html-coding-standards/blob/master/wmroi_htmlcsrc)
 
 ## License
 
