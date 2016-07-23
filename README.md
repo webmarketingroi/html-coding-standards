@@ -16,6 +16,7 @@ These are:
 
 - [Write valid HTML](#write-valid-html)
 - [DOCTYPE](#doctype)
+- [Do not add unnecessary whitespace](#do-not-add-unnecessary-whitespace)
 - [Indentation](#indentation)
 - [Line endings](#line-endings)
 - [Encoding and charset](#encoding-and-charset)
@@ -61,6 +62,28 @@ We also recommend against capitalising ‘html’. The following (whilst still t
 ```html
 <!-- Wrong -->
 <!DOCTYPE HTML>
+```
+
+### Do not add unnecessary whitespace
+
+Avoid adding unnecessary white-space where-ever possible.
+
+```html
+<!-- Correct -->
+<h3>Privacy Policy</h3>
+
+<!-- Wrong -->
+<h3>Privacy Policy </h3>
+```
+
+This applies equally to elements such as `strong` as it does `h3`.
+
+```html
+<!-- Correct -->
+<strong>Use of your personal information</strong>
+
+<!-- Wrong -->
+<strong>Use of your personal information </strong>
 ```
 
 ### Lowercase names
