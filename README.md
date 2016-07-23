@@ -33,10 +33,10 @@ Element and attribute names must be in all lower case:
 
 ```html
 <!-- Correct -->
-<input name="name" type="text" />
+<input name="name" type="text">
 
 <!-- Wrong -->
-<input name="name" TYPE="text" />
+<input name="name" TYPE="text">
 ```
 
 ### Closing tags
@@ -54,7 +54,7 @@ Empty elements must be followed by a corresponding closing tag:
 <span></span>
 ```
 
-Elements with a single tag, such as HR, BR, INPUT, IMG must end with `>`:
+Elements with a single tag, such as `<hr>`, `<br>`, `<input>` and `<img>` must end with `>`:
 
 ```html
 <br>
