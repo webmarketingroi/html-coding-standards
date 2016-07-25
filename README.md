@@ -15,6 +15,7 @@ These are:
 ## Table of contents
 
 - [Write valid HTML](#write-valid-html)
+- [Document encoding](#document-encoding)
 - [DOCTYPE](#doctype)
 - [Do not add unnecessary whitespace](#do-not-add-unnecessary-whitespace)
 - [Avoid hacking the language](#avoid-hacking-the-language)
@@ -49,6 +50,10 @@ All HTML code must be valid and well formed. You must validate it against the HT
 The purpose of defining the formatting and style rules (with the usage of ‘coding standards’) is to improve collaboration, code quality and readability. Tools are free to obfuscate, minify, and compile as long as the general code quality is maintained.
 
 With the correct adherence to coding standards, it should be almost indistinguishable which member of the team wrote what part of the code-base – in other words, it should look largely “uniform” and “consistent” in style in all projects. Remember: Working code (or mark-up) is not the same thing as good code.
+
+### Document encoding
+
+Make sure your editor uses UTF-8 as character encoding, without a byte order mark. Specify the encoding in HTML templates and documents via `<meta charset="utf-8">`. Do not specify the encoding of style sheets as these assume UTF-8. [More can be read about this here](https://www.w3.org/International/tutorials/tutorial-char-enc/).
 
 ### DOCTYPE
 
