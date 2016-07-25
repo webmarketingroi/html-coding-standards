@@ -53,7 +53,7 @@ With the correct adherence to coding standards, it should be almost indistinguis
 
 ### Document encoding
 
-Make sure your editor uses UTF-8 as character encoding, without a byte order mark. Specify the encoding in HTML templates and documents via `<meta charset="utf-8">`. Do not specify the encoding of style sheets as these assume UTF-8. [More can be read about this here](https://www.w3.org/International/tutorials/tutorial-char-enc/).
+Make sure your editor uses UTF-8 as character encoding, without a byte order mark. Specify the encoding in HTML templates and documents via `<meta charset="utf-8">`. Do not specify the encoding of style sheets as these assume UTF-8. [More can be read about this here](https://www.w3.org/International/tutorials/tutorial-char-enc/). Avoid using `<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">` which still technically works but is somewhat obsolete in HTML5.
 
 ### DOCTYPE
 
