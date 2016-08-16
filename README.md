@@ -380,7 +380,7 @@ Including a server-side language like PHP into your HTML files or vice versa ten
 
 It may "seem" and feel like it's easier than simply putting the same HTML in a few different files, but it's actually an anti-pattern and something to avoid. It is a poor 'seperation of concerns' and anti-pattern.
 
-MVC-based frameoworks are one thing, but don't do this things like:
+MVC-based frameworks are one thing, but don't do this things like:
 
 ````html
 <!-- Some HTML -->
