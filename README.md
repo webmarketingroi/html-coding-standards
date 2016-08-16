@@ -38,7 +38,7 @@ These are:
 - [Images prefixes](#images-prefixes)
 - [HTML anchors](#html-anchors)
 - [Comments](#comments)
-- [Avoid mixing languages](#avoid-mixing-langages)
+- [Avoid mixing languages](#avoid-mixing-languages)
 - [Accessibility](#accessibility)
 - [Attaching CSS and JavaScript files](#attaching-css-and-javascript-files)
 - [References](#references)
