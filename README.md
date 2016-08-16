@@ -38,6 +38,7 @@ These are:
 - [Images prefixes](#images-prefixes)
 - [HTML anchors](#html-anchors)
 - [Comments](#comments)
+- [Avoid mixing languages](#avoid-mixing-langages)
 - [Accessibility](#accessibility)
 - [Attaching CSS and JavaScript files](#attaching-css-and-javascript-files)
 - [References](#references)
@@ -365,6 +366,40 @@ Generally, avoid the usage of them altogether. If HTML is well written – in mo
 If you find yourself wanting to add HTML comments – ask yourself whether they are absolutely necessary and generally avoid.
 
 In exceptional cases where you think they may benefit readability or comprehensive of a code-block, use them, but make to always follow the format of `<!-- Clear comment -->` on a separate line preceding the difficult to understand HTML.
+
+## Avoid mixing languages
+
+Including a server-side language like PHP into your HTML files or vice versa tends to get messy fast. Don't do it. By doing so, it makes maintainability of the HTML more difficult for front-end developers who do not have server-side programming experience. It also hurts readability and often has an unnecessary (obfuscation)[https://en.wikipedia.org/wiki/Obfuscation] effect.
+
+It may "seem" and feel like it's easier than simply putting the same HTML in a few different files, but it's actually an anti-pattern and something to avoid. It is a poor 'seperation of concerns' and anti-pattern.
+
+MVC-based frameoworks are one thing, but don't do this things like:
+
+````html
+<!-- Some HTML -->
+<?php if (!empty($SIMPLE_MODAL_SCRIPT) && isset($SIMPLE_MODAL_SCRIPT)){ ?><script src="<?=$SIMPLE_MODAL_SCRIPT?>" type="text/javascript"></script><? } ?>
+<!-- Some HTML -->
+````
+
+... or ...
+
+````html
+<!-- Some HTML -->
+<?php
+if (preg_match("/some-url-pattern/i", $_SERVER['REQUEST_URI'])) {
+    $select_display = "style='display:none;'";
+    $is_show = false;
+} else {
+    $select_display = "";
+    $is_show = true;
+}
+<!-- Some HTML -->
+?>
+````
+
+Both of these cases could have been written equally well in pure HTML without the unnecessary usage of server-side PHP. In the case of the JavaScript-based include - why not simply have that line appear in .html files where that JavaScript file is included? Unless you have, maybe, thousands of pages - maintainability of this should not be an issue (and it is then easy to remove it on pages where it is not required if you are, for example, optimising the load speed of a particular page or similar).
+
+If you *do* have thousands of pages, instead - ask yourself - shouldn't I be using some sort of content management system or MVC framework here?
 
 ## Accessibility
 
