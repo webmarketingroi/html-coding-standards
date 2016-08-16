@@ -123,7 +123,7 @@ If your second-level heading has been styled to be larger than your top-level he
 <h2>Second-Level Heading</h2>
 ```
 
-Another example of "hacking" the language might be using something like `<small>` (which, according to [W3.org](https://www.w3.org/TR/html-markup/small.html#small), is *supposed* to be used for The small element represents so-called "fine print" or "small print", such as legal disclaimers and caveats) as a poor replacement for `<br>` or where the CSS is overwritten so `<small>` is no longer actually small:
+Another example of "hacking" the language might be using something like `<small>` (which, according to [W3.org](https://www.w3.org/TR/html-markup/small.html#small), is *supposed* to be used for '*[representing] so-called "fine print" or "small print", such as legal disclaimers and caveats*' where the CSS is overwritten so `<small>` is no longer actually small:
 
 ```html
 <!-- Wrong -->
