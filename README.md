@@ -393,8 +393,8 @@ if (preg_match("/some-url-pattern/i", $_SERVER['REQUEST_URI'])) {
     $select_display = "";
     $is_show = true;
 }
-<!-- Some HTML -->
 ?>
+<!-- Some HTML -->
 ````
 
 Both of these cases could have been written equally well in pure HTML without the unnecessary usage of server-side PHP. In the case of the JavaScript-based include - why not simply have that line appear in .html files where that JavaScript file is included? Unless you have, maybe, thousands of pages - maintainability of this should not be an issue (and it is then easy to remove it on pages where it is not required if you are, for example, optimising the load speed of a particular page or similar).
